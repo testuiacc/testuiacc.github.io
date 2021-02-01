@@ -198,3 +198,24 @@ button {
   transform: scale(1.02);
   background-color: rgba(50, 168, 82, 0.8);
 }
+
+.inner-container {
+  width: 55%;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 100px;
+  border-radius: 10px;
+}
+.inner-container h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.text {
+  font-size: 20px;
+  color: #fff;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
