@@ -111,10 +111,10 @@ button {
 }
 /* END */
 /* .wrapper {
-  background-color: rgba(177, 96, 96, 0.315);
-  width: 1100px;
-  margin: 10px auto;
-} */
+    background-color: rgba(177, 96, 96, 0.315);
+    width: 1100px;
+    margin: 10px auto;
+  } */
 #page-banner {
   position: relative;
   width: 1000px;
@@ -123,7 +123,6 @@ button {
   padding: 10px;
   box-sizing: border-box;
   display: grid;
-  background-color: rgba(255, 255, 255, 0.1);
   color: #fff;
   justify-items: center;
   border-radius: 10px;
@@ -155,9 +154,10 @@ button {
 .posts-ul::-webkit-scrollbar {
   background-color: #f5f5f5;
   border-radius: 10px;
+  width: 10px;
 }
 .posts-ul::-webkit-scrollbar-thumb {
-  background-color: rgba(50, 168, 82, 0.8);
+  background-color: rgba(114, 124, 116, 0.8);
   outline: 0px solid rgb(0, 0, 0, 0.5);
   border-radius: 10px;
 }
@@ -169,7 +169,7 @@ button {
   display: flex;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 10px 20px;
-  color: #fff;
+  color: rgb(31, 27, 27);
   margin: 5px 0;
   transition: 0.5s;
 }
@@ -209,7 +209,7 @@ button {
 }
 .inner-container h1 {
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 900;
 }
 .text {
@@ -218,4 +218,11 @@ button {
   line-height: 30px;
   text-align: justify;
   margin-bottom: 40px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
