@@ -25,6 +25,8 @@
 .logo {
   width: 120px;
   cursor: pointer;
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
 
 .navbar ul li {
@@ -218,11 +220,4 @@ button {
   line-height: 30px;
   text-align: justify;
   margin-bottom: 40px;
-}
-
-.logo {
-  width: 200px;
-  height: 200px;
-  -webkit-filter: invert(1);
-  filter: invert(1);
 }
