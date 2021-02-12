@@ -252,3 +252,12 @@ button {
   margin-bottom: 20px;
   border-radius: 20px;
 }
+.article1-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
